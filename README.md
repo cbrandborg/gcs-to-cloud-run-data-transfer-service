@@ -26,8 +26,9 @@
 - SERVICE_NAME - Name of Cloud Run service to be created
 
 ## Run prerequisites.sh to create infrastructure contained in service
+- `. prerequisites.sh`
 
 ## Fill in the following environment values in push_object.sh and run to trigger service
 - PROJECT_ID - Your project ID in GCP
 - STORAGE_BUCKET - The storage bucket name you wish to use
-- Run push_object.sh to trigger service
+- Run push_object.sh to trigger service: `. push_object.sh`
