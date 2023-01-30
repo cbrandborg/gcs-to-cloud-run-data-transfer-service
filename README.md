@@ -32,3 +32,8 @@
 - PROJECT_ID - Your project ID in GCP
 - STORAGE_BUCKET - The storage bucket name you wish to use
 - Run push_object.sh to trigger service: `. push_object.sh`
+
+## Documentation used to construct this demo:
+- [Using PubSub with Cloud Run](https://cloud.google.com/run/docs/tutorials/pubsub#run_pubsub_build-nodejs)
+- [Loading data into BigQuery from Cloud Storage](https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv)
+- [Using PubSub Notifications](https://cloud.google.com/storage/docs/pubsub-notifications)
